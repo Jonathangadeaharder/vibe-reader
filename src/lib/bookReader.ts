@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import * as pdfjsLib from "pdfjs-dist";
 import ePub from "epubjs";
-// @ts-expect-error - vite ?url import for the worker file
 import pdfWorkerUrl from "pdfjs-dist/build/pdf.worker.min.mjs?url";
 import type { BookRecord } from "@/lib/db";
 
